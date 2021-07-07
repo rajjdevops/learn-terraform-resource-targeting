@@ -4,6 +4,8 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 3.39.0"
     }
+  }
+}
     
 provider "aws" {
   region = var.aws_region
