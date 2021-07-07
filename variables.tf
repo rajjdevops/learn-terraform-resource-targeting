@@ -6,6 +6,6 @@ variable "aws_region" {
   default     = "eu-west-1"
 }
 
-variable "ACCESS_KEY_ID" {}
+variable "aws_access_key" {}
 
-variable "SECRET_KEY" {}
+variable "aws_secret_key" {}
