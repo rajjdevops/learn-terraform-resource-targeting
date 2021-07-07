@@ -1,11 +1,9 @@
-# Variable declarations
-
-variable "aws_region" {
-  description = "AWS region"
-  type        = string
-  default     = "eu-west-1"
+terraform {
+  
+  required_providers {
+    aws = ">= 3.24"
+  }
 }
-
 variable "access_key" {}
 
 variable "secret_key" {}
