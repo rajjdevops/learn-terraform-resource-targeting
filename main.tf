@@ -5,16 +5,6 @@ terraform {
       version = "~> 3.39.0"
     }
 
-    random = {
-      source  = "hashicorp/random"
-      version = "~> 3.1.0"
-    }
-  }
-}
-
-provider "aws" {
-  region = var.aws_region
-}
 
 resource "random_pet" "bucket_name" {
   length    = 5
