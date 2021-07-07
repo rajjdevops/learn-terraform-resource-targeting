@@ -1,7 +1,7 @@
 terraform {
   
   required_providers {
-    aws = ">= 3.24"
+    aws = ">= 2.30"
   }
 }
 variable "access_key" {}
