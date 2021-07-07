@@ -7,9 +7,7 @@ terraform {
   }
 }
     
-provider "aws" {
-  region = var.aws_region
-}
+
 
 resource "random_pet" "bucket_name" {
   length    = 5
